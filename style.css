@@ -14,3 +14,7 @@ main {
 b {
   color: rgb(180, 62, 62);
 }
+
+body {
+  background-color: rgb(216, 216, 216);
+}
