@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Form</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <div>
+      <legend>Личные данные</legend>
+        <label for="Name">Имя</label>
+        <input type="text" id="Name">
+      </div>
+      <div>
+        <label for="Fam">Фамилия</label>
+        <input type="text" id="Fam">
+      </div>
+      <div>
+        <label for="Data">День рождения</label>
+        <input type="datetime-local" id="data">
+      </div>
+      <div>
+        <label for="Sex">Мale</label>
+        <input type="radio" id="radio" name="Male">
+        <label for="Sex">Female</label>
+        <input type="radio" id="radio" name="Female">
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <legend>Адресные данные</legend>
+        <div>
+          <label for="City">Город</label>
+          <select name="City" id="City">City
+            <option value="">---</option>
+            <option value="Kharkiv">Kharkiv</option>
+            <option value="Lviv">Lviv</option>
+          </select>
+        </div>
+          <label for="Street">Адрес</label>
+          <input type="text" id="street">
+    </fieldset>
+    
+    <fieldset>
+      <div>
+        <legend>Контактные данные</legend>
+        <label for="Phone">Телефон</label>
+        <input type="text" id="phone">
+      </div>
+      <div>
+        <label for="Home">Домашний</label>
+        <input type="text" id="text">
+      </div>
+      <div>
+        <label for="work">Рабочий</label>
+        <input type="text" id="work">
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
