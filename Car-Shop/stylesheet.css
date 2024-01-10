@@ -1,0 +1,61 @@
+.background{
+  background-color: rgba(143, 156, 156, 0.389);
+}
+.center{
+  text-align: center;
+  padding: 20px;
+}
+
+.logocars {
+  text-align: center;
+  width: 100px;
+  margin-left: 40px;
+
+}
+.weblogo{
+  width: 50px;
+  float: right;
+}
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #ad440b;
+  margin-top: 30px;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+.menu {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+.hstyle{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.logocarsinp{
+  width: 100px;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+footer {
+  display: block;
+}
+h4 {
+  text-align: left;
+}
